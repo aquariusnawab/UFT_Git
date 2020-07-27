@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<xsd:schema xmlns:tns="http://www.example.org/HelloWorldResponse" elementFormDefault="qualified" targetNamespace="http://www.example.org/HelloWorldResponse" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="helloWorld_Response">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element id="greetings" minOccurs="1" maxOccurs="1" name="greetings" />
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

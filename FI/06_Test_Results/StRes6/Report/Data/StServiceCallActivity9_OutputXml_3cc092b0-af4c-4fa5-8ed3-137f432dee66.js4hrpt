@@ -1,0 +1,1 @@
+﻿function __get_float_pane_content(){return '&#60;s:Envelope xmlns:s=&#34;http://schemas.xmlsoap.org/soap/envelope/&#34;&#62;&#60;s:Body&#62;&#60;s:Fault&#62;&#60;faultcode&#62;s:Client&#60;/faultcode&#62;&#60;faultstring xml:lang=&#34;en-US&#34;&#62;Specify a flight date later than today.&#60;/faultstring&#62;&#60;/s:Fault&#62;&#60;/s:Body&#62;&#60;/s:Envelope&#62;';}

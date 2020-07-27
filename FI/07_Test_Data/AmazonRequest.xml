@@ -1,0 +1,71 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://webservices.amazon.com/AWSECommerceService/2011-08-01">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:CartAdd>
+         <!--Optional:-->
+         <ns:MarketplaceDomain>?</ns:MarketplaceDomain>
+         <!--Optional:-->
+         <ns:AWSAccessKeyId>?</ns:AWSAccessKeyId>
+         <!--Optional:-->
+         <ns:AssociateTag>?</ns:AssociateTag>
+         <!--Optional:-->
+         <ns:Validate>?</ns:Validate>
+         <!--Optional:-->
+         <ns:XMLEscaping>?</ns:XMLEscaping>
+         <!--Optional:-->
+         <ns:Shared>
+            <!--Optional:-->
+            <ns:CartId>?</ns:CartId>
+            <!--Optional:-->
+            <ns:HMAC>?</ns:HMAC>
+            <!--Optional:-->
+            <ns:MergeCart>?</ns:MergeCart>
+            <!--Optional:-->
+            <ns:Items>
+               <!--Zero or more repetitions:-->
+               <ns:Item>
+                  <!--Optional:-->
+                  <ns:ASIN>?</ns:ASIN>
+                  <!--Optional:-->
+                  <ns:OfferListingId>?</ns:OfferListingId>
+                  <!--Optional:-->
+                  <ns:Quantity>?</ns:Quantity>
+                  <!--Optional:-->
+                  <ns:AssociateTag>?</ns:AssociateTag>
+                  <!--Optional:-->
+                  <ns:ListItemId>?</ns:ListItemId>
+               </ns:Item>
+            </ns:Items>
+            <!--Zero or more repetitions:-->
+            <ns:ResponseGroup>?</ns:ResponseGroup>
+         </ns:Shared>
+         <!--Zero or more repetitions:-->
+         <ns:Request>
+            <!--Optional:-->
+            <ns:CartId>?</ns:CartId>
+            <!--Optional:-->
+            <ns:HMAC>?</ns:HMAC>
+            <!--Optional:-->
+            <ns:MergeCart>?</ns:MergeCart>
+            <!--Optional:-->
+            <ns:Items>
+               <!--Zero or more repetitions:-->
+               <ns:Item>
+                  <!--Optional:-->
+                  <ns:ASIN>?</ns:ASIN>
+                  <!--Optional:-->
+                  <ns:OfferListingId>?</ns:OfferListingId>
+                  <!--Optional:-->
+                  <ns:Quantity>?</ns:Quantity>
+                  <!--Optional:-->
+                  <ns:AssociateTag>?</ns:AssociateTag>
+                  <!--Optional:-->
+                  <ns:ListItemId>?</ns:ListItemId>
+               </ns:Item>
+            </ns:Items>
+            <!--Zero or more repetitions:-->
+            <ns:ResponseGroup>?</ns:ResponseGroup>
+         </ns:Request>
+      </ns:CartAdd>
+   </soapenv:Body>
+</soapenv:Envelope>

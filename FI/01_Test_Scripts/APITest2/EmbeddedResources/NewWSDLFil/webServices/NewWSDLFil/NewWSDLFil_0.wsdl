@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.example.org/NewWSDLFile/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" name="NewWSDLFile" targetNamespace="http://www.example.org/NewWSDLFile/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema targetNamespace="http://www.example.org/NewWSDLFile/">
+      <s:import schemaLocation="HelloWorld_1.xsd" namespace="http://www.example.org/HelloWorldRequest" />
+      <s:import schemaLocation="HelloWorld_2.xsd" namespace="http://www.example.org/HelloWorldResponse" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="sayGreetingsRequest">
+    <wsdl:part name="parameters" xmlns:q1="http://www.example.org/HelloWorldRequest" element="q1:helloWorld_Request" />
+  </wsdl:message>
+  <wsdl:message name="sayGreetingsResponse">
+    <wsdl:part name="parameters" xmlns:q2="http://www.example.org/HelloWorldResponse" element="q2:helloWorld_Response" />
+  </wsdl:message>
+  <wsdl:portType name="NewWSDLFile">
+    <wsdl:operation name="NewOperation">
+      <wsdl:input message="tns:sayGreetingsRequest" />
+      <wsdl:output message="tns:sayGreetingsResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NewWSDLFileSOAP" type="tns:NewWSDLFile">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="NewOperation">
+      <soap:operation soapAction="http://www.example.org/NewWSDLFile/NewOperation" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="NewWSDLFile">
+    <wsdl:port name="NewWSDLFileSOAP" binding="tns:NewWSDLFileSOAP">
+      <soap:address location="http://www.example.org/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

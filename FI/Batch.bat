@@ -1,0 +1,1 @@
+cscript "C:\Users\nnaseeruddin\Documents\Nas_FI\FI\UFT_AOM.vbs"

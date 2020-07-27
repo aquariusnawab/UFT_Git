@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'',namePairs:[{nameInApp: 'FlightsAPI_Data!API',nameInDataFile: 'DS_0'}]}]};

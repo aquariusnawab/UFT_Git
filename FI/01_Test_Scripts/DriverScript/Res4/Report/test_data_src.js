@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\nnaseeruddin\\Documents\\Nas_FI\\FI\\01_Test_Scripts\\DriverScript\\Res4',namePairs:[]}]};

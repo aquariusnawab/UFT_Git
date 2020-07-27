@@ -1,0 +1,72 @@
+<?xml-stylesheet type='text/xsl' href='..//CheckpointsTree.xsl'?>
+<Report>
+  <Checkpoint>
+    <VTD_Type name="Type">HP.ST.Ext.CheckpointRules.ArrayCheckpoints.ArrayElementCPRule</VTD_Type>
+    <VTD_Name name="Name">FlightOrder[1]</VTD_Name>
+    <Name name="Name">Checkpoint</Name>
+    <VTD_Operation name="Operation">Array - Element</VTD_Operation>
+    <VTD_Status name="Status" code="Success">Success</VTD_Status>
+  </Checkpoint>
+  <Checkpoint>
+    <VTD_Type name="Type">HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ValueCPRule</VTD_Type>
+    <VTD_Name name="Name">Checkpoint 1</VTD_Name>
+    <Name name="Name">Checkpoint</Name>
+    <VTD_Details name="Details">
+    </VTD_Details>
+    <VTD_Operation name="Operation">=</VTD_Operation>
+    <VTD_Expected name="Expected">Economy</VTD_Expected>
+    <VTD_Actual name="Actual">Economy</VTD_Actual>
+    <VTD_Status name="Status" code="Success">Success</VTD_Status>
+    <VTD_Xpath name="Xpath">Envelope[1]/Body[1]/GetFlightOrdersResponse[1]/GetFlightOrdersResult[1]/FlightOrder[1]/Class[1]</VTD_Xpath>
+  </Checkpoint>
+  <Checkpoint>
+    <VTD_Type name="Type">HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ValueCPRule</VTD_Type>
+    <VTD_Name name="Name">Checkpoint 2</VTD_Name>
+    <Name name="Name">Checkpoint</Name>
+    <VTD_Details name="Details">
+    </VTD_Details>
+    <VTD_Operation name="Operation">=</VTD_Operation>
+    <VTD_Expected name="Expected">Christopher</VTD_Expected>
+    <VTD_Actual name="Actual">Christopher</VTD_Actual>
+    <VTD_Status name="Status" code="Success">Success</VTD_Status>
+    <VTD_Xpath name="Xpath" TooLong="True" link="True">Envelope[1]/Body[1]/GetFlightOrdersResponse[1]/GetFlightOrdersResult[1]/FlightOrder[1]/CustomerName[1]</VTD_Xpath>
+  </Checkpoint>
+  <Checkpoint>
+    <VTD_Type name="Type">HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ValueCPRule</VTD_Type>
+    <VTD_Name name="Name">Checkpoint 3</VTD_Name>
+    <Name name="Name">Checkpoint</Name>
+    <VTD_Details name="Details">
+    </VTD_Details>
+    <VTD_Operation name="Operation">=</VTD_Operation>
+    <VTD_Expected name="Expected">1042</VTD_Expected>
+    <VTD_Actual name="Actual">1042</VTD_Actual>
+    <VTD_Status name="Status" code="Success">Success</VTD_Status>
+    <VTD_Xpath name="Xpath" TooLong="True" link="True">Envelope[1]/Body[1]/GetFlightOrdersResponse[1]/GetFlightOrdersResult[1]/FlightOrder[1]/FlightNumber[1]</VTD_Xpath>
+  </Checkpoint>
+  <Checkpoint>
+    <VTD_Type name="Type">HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ValueCPRule</VTD_Type>
+    <VTD_Name name="Name">Checkpoint 4</VTD_Name>
+    <Name name="Name">Checkpoint</Name>
+    <VTD_Details name="Details">
+    </VTD_Details>
+    <VTD_Operation name="Operation">=</VTD_Operation>
+    <VTD_Expected name="Expected">2</VTD_Expected>
+    <VTD_Actual name="Actual">2</VTD_Actual>
+    <VTD_Status name="Status" code="Success">Success</VTD_Status>
+    <VTD_Xpath name="Xpath" TooLong="True" link="True">Envelope[1]/Body[1]/GetFlightOrdersResponse[1]/GetFlightOrdersResult[1]/FlightOrder[1]/NumberOfTickets[1]</VTD_Xpath>
+  </Checkpoint>
+  <Checkpoint>
+    <VTD_Type name="Type">HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ValueCPRule</VTD_Type>
+    <VTD_Name name="Name">Checkpoint 5</VTD_Name>
+    <Name name="Name">Checkpoint</Name>
+    <VTD_Details name="Details">
+    </VTD_Details>
+    <VTD_Operation name="Operation">=</VTD_Operation>
+    <VTD_Expected name="Expected">171</VTD_Expected>
+    <VTD_Actual name="Actual">171</VTD_Actual>
+    <VTD_Status name="Status" code="Success">Success</VTD_Status>
+    <VTD_Xpath name="Xpath" TooLong="True" link="True">Envelope[1]/Body[1]/GetFlightOrdersResponse[1]/GetFlightOrdersResult[1]/FlightOrder[1]/OrderNumber[1]</VTD_Xpath>
+  </Checkpoint>
+  <Map>[0,1,1,1,1,1]</Map>
+  <ParentsMap>[1]</ParentsMap>
+</Report>

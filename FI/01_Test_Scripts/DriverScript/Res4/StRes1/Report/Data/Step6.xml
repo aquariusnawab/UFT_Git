@@ -1,0 +1,30 @@
+<?xml-stylesheet href="..//StServiceCallActivity.xsl" type="text/xsl"?><report><VTD_Type name="Type">HP.ST.Ext.WebServicesActivities.StServiceCallActivity</VTD_Type><VTD_Name name="Step ID">StServiceCallActivity10</VTD_Name><InputXml name="InputXml" xml="True" link="True" FileLocation="StServiceCallActivity10_InputXml_09bd2a27-f3e4-4e15-8dd0-f87979577a6b.xml">&lt;Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Body&gt;
+    &lt;UpdateFlightOrder xmlns="HP.SOAQ.SampleApp"&gt;
+      &lt;UpdateFlightOrderDetails&gt;
+        &lt;Class&gt;Economy&lt;/Class&gt;
+        &lt;CustomerName&gt;Christopher&lt;/CustomerName&gt;
+        &lt;NumberOfTickets&gt;2&lt;/NumberOfTickets&gt;
+        &lt;OrderNumber&gt;171&lt;/OrderNumber&gt;
+      &lt;/UpdateFlightOrderDetails&gt;
+    &lt;/UpdateFlightOrder&gt;
+  &lt;/Body&gt;
+&lt;/Envelope&gt;</InputXml><Service name="Service">Flights_Service</Service><Port name="Port">FlightsServiceMethods</Port><Operation name="Operation">UpdateFlightOrder</Operation><Address name="Address">http://localhost:8000/Flights_SOAP</Address><SOAPAction name="SOAPAction">HP.SOAQ.SampleApp/IFlightsSoapService/UpdateFlightOrder</SOAPAction><ContentType name="ContentType">text/xml; charset=utf-8</ContentType><MessageExchangePattern name="MessageExchangePattern">Request Response</MessageExchangePattern><Full_request name="Full request" TooLong="True" link="True" FileLocation="StServiceCallActivity10_Full_request_d28a43bf-5f79-4171-b1c0-3c7b039a4424.xml">&lt;Envelope xmlns="htt ... &lt;/Body&gt;
+&lt;/Envelope&gt;</Full_request><InputHeader name="InputHeader">SOAPAction:	HP.SOAQ.SampleApp/IFlightsSoapService/UpdateFlightOrder
+Content-Type:	text/xml; charset=utf-8
+Host:	localhost:8000
+Content-Length:	383
+Expect:	100-continue
+Connection:	Close
+</InputHeader><OutputHeader name="OutputHeader">Connection:	close
+Content-Length:	230
+Content-Type:	text/xml; charset=utf-8
+Date:	Tue, 09 Jun 2020 09:09:12 GMT
+Server:	Microsoft-HTTPAPI/2.0
+</OutputHeader><OutputText name="OutputText">&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;&lt;s:Body&gt;&lt;UpdateFlightOrderResponse xmlns="HP.SOAQ.SampleApp"&gt;&lt;UpdateFlightOrderResult&gt;true&lt;/UpdateFlightOrderResult&gt;&lt;/UpdateFlightOrderResponse&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;</OutputText><HttpStatusCode name="HttpStatusCode">200 : OK</HttpStatusCode><OutputXml name="OutputXml" xml="True" link="True" FileLocation="StServiceCallActivity10_OutputXml_2ae10884-346c-41ed-88f6-0bdb777f6907.xml">&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;s:Body&gt;
+    &lt;UpdateFlightOrderResponse xmlns="HP.SOAQ.SampleApp"&gt;
+      &lt;UpdateFlightOrderResult&gt;true&lt;/UpdateFlightOrderResult&gt;
+    &lt;/UpdateFlightOrderResponse&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;</OutputXml><VTD_Message name="Message">Web service call performed successfully</VTD_Message><Name name="Name">'UpdateFlightOrder'</Name><Comment name="Comment">''</Comment><VTD_Status name="Status">Done</VTD_Status></report>

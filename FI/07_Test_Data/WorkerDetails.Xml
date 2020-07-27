@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkerDetails>
+<Worker>
+	<Summary>
+		<Employee_ID>123456</Employee_ID>
+		<Name>Shekhar Sharma (123456)</Name>
+	</Summary>
+		<Eligibility MyValue="">true</Eligibility>
+	<Personal>
+	<Name_Data>
+		<Name_Type MyValue="">Legal</Name_Type>
+		<First_Name MyValue="">Shekhar1</First_Name>
+		<Last_Name MyValue="">Sharma1</Last_Name>
+	</Name_Data>
+	<Name_Data>
+		<Name_Type MyValue="">Preferred</Name_Type>
+		<First_Name MyValue="">Shekhar2</First_Name>
+		<Last_Name MyValue="">Sharma2</Last_Name>
+	</Name_Data>
+		<Gender MyValue="">M</Gender>
+		<Birth_Date MyValue="">1975-11-30</Birth_Date>
+		<Country_of_Birth MyValue="">IND</Country_of_Birth>
+		<City_of_Birth MyValue="">Delhi</City_of_Birth>
+		<Marital_Status MyValue="">Unmarried</Marital_Status>
+		<Nationality MyValue="">IND</Nationality>
+	</Personal>
+	<Address_Data>
+		<Address_Type MyValue="">Temp</Address_Type>
+		<Is_Primary MyValue="">true</Is_Primary>
+		<Municipality MyValue="">Bangalore</Municipality>
+		<Region MyValue="">Bellandur</Region>
+		<Postal_Code MyValue="">560037</Postal_Code>
+		<Country MyValue="">IND</Country>
+	</Address_Data>
+</Worker>
+<Worker>
+	<Summary>
+		<Employee_ID>1236</Employee_ID>
+		<Name>Lalith Sharma (1236)</Name>
+	</Summary>
+</Worker>
+</WorkerDetails>

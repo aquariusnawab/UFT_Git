@@ -1,0 +1,381 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>Start</Name>
+    <Description />
+    <StartTime>2020-07-09 13:44:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step0.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step0.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\1e447a80-6c5c-432e-bfd3-fb4d3cbd49e8.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="Action">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>FlightsAPI_Data!API</Name>
+    <Description>1</Description>
+    <StartTime>2020-07-09 13:44:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>CreateFlightOrder</Name>
+    <Description>CreateFlightOrder ended unsuccessfully</Description>
+    <StartTime>2020-07-09 13:44:39</StartTime>
+    <Duration>-2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step3.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step3.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GetFlights</Name>
+    <Description />
+    <StartTime>2020-07-09 13:44:35</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step2.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step2.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step1.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step1.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\77ed5893-c208-4250-9c86-28528fa9c670.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>FlightsAPI_Data!API</Name>
+    <Description>1</Description>
+    <StartTime>2020-07-09 13:44:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>UpdateFlightOrder</Name>
+    <Description>UpdateFlightOrder ended unsuccessfully</Description>
+    <StartTime>2020-07-09 13:44:39</StartTime>
+    <Duration>-2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step4.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step4.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>CreateFlightOrder</Name>
+    <Description>CreateFlightOrder ended unsuccessfully</Description>
+    <StartTime>2020-07-09 13:44:37</StartTime>
+    <Duration>0</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step3.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step3.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\9c71ed4d-4335-4a5a-9340-3dee272f8f71.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>FlightsAPI_Data!API</Name>
+    <Description>1</Description>
+    <StartTime>2020-07-09 13:44:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GetFlightOrders</Name>
+    <Description>GetFlightOrders ended unsuccessfully</Description>
+    <StartTime>2020-07-09 13:44:39</StartTime>
+    <Duration>-2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step5.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step5.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>UpdateFlightOrder</Name>
+    <Description>UpdateFlightOrder ended unsuccessfully</Description>
+    <StartTime>2020-07-09 13:44:37</StartTime>
+    <Duration>0</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step4.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step4.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\e4eb9287-1e5a-414b-a5d0-dffa011577db.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>GetFlightOrders</Name>
+    <Description>GetFlightOrders ended unsuccessfully</Description>
+    <StartTime>2020-07-09 13:44:37</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step5.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step5.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\9c50e230-c8c1-4e88-9573-906049d428f5.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>DeleteFlightOrder</Name>
+    <Description>DeleteFlightOrder ended unsuccessfully</Description>
+    <StartTime>2020-07-09 13:44:37</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step6.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step6.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\3d25b8e4-06f6-4cc6-88c2-5a68c0443133.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Positive Scenario</Name>
+    <Description />
+    <StartTime>2020-07-09 13:44:35</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step7.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step7.js</HtmlBottomFilePath>
+      <IconKey>b440b0d7168443189eaa18329dacf527</IconKey>
+    </Extension>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name />
+    <Description />
+    <StartTime>2020-07-09 13:44:35</StartTime>
+    <Duration>2</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <BottomFilePath>Data\Step7.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step7.js</HtmlBottomFilePath>
+      <IconKey>cc7f9b84e49b4fbe8feb8422696b823f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<Data>
+    <Name>GetFlights</Name>
+    <Description />
+    <StartTime>2020-07-09 13:44:37</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step9.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step9.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step8.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step8.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\94eeb989-eb5c-4e08-bb13-1772cf248252.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>FlightsAPI_Data!API</Name>
+    <Description>2</Description>
+    <StartTime>2020-07-09 13:44:40</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Checkpoints</Name>
+    <Description />
+    <StartTime>2020-07-09 13:44:40</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step10.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step10.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>CreateFlightOrder</Name>
+    <Description />
+    <StartTime>2020-07-09 13:44:38</StartTime>
+    <Duration>2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step11.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step11.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+      <MergedSTCheckpointData>
+        <BottomFilePath>Data\Step10.xml</BottomFilePath>
+        <HtmlBottomFilePath>.\\\Data\\Step10.js</HtmlBottomFilePath>
+      </MergedSTCheckpointData>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4a98854e-9127-40f2-8ad8-9ac1cc91faeb.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="StartDataMapping">
+<ReportNode type="AddDataMappedItem">
+<Data>
+    <Name>FlightsAPI_Data!API</Name>
+    <Description>2</Description>
+    <StartTime>2020-07-09 13:44:40</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>FlightsAPI_Data!API</Name>
+    <Description>2</Description>
+    <StartTime>2020-07-09 13:44:40</StartTime>
+    <Duration>-2</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Negative Scenario</Name>
+    <Description />
+    <StartTime>2020-07-09 13:44:37</StartTime>
+    <Duration>1</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step12.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step12.js</HtmlBottomFilePath>
+      <IconKey>b440b0d7168443189eaa18329dacf527</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name />
+    <Description />
+    <StartTime>2020-07-09 13:44:37</StartTime>
+    <Duration>2</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <BottomFilePath>Data\Step12.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step12.js</HtmlBottomFilePath>
+      <IconKey>cc7f9b84e49b4fbe8feb8422696b823f</IconKey>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Test Flow</Name>
+    <Description />
+    <StartTime>2020-07-09 13:44:35</StartTime>
+    <Duration>4</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <BottomFilePath>Data\Step13.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step13.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\75c63625-6f9e-4146-bea0-db5b7bd52caf.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>End</Name>
+    <Description />
+    <StartTime>2020-07-09 13:44:39</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <BottomFilePath>Data\Step14.xml</BottomFilePath>
+      <HtmlBottomFilePath>.\\\Data\\Step14.js</HtmlBottomFilePath>
+      <IconKey>41251aebabce4811997c79ed148230c3</IconKey>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\a37b9ca6-7e54-4343-985c-dc65b8e53488.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>APITest2</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>14.53</ToolVersion>
+    <ToolVersionStringLiteral>14.53</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-07-09 13:44:35</StartTime>
+    <Duration>5</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>1967dd129f684e38aa73cd2bc482f874</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+05:30:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>US\nnaseeruddin</User>
+      <CpuInfo>Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz</CpuInfo>
+      <NumberOfCores>8</NumberOfCores>
+      <TotalMemory>8071</TotalMemory>
+      <HostName>us.deloitte.com\USHYDNNASEERUD9</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>StRes6</ResultName>
+    <RunStartTime>2020-07-09 13:44:35</RunStartTime>
+    <Timezone>+05:30:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>14.53</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>14.53</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

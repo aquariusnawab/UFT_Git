@@ -1,0 +1,1 @@
+﻿var __testDataSource={items:[{dataFilePath:'Default.xls',dataFileFormat:'excel',dataFileFolder:'C:\\Users\\kpravallika\\Downloads\\UFT\\PDF_Automation\\PDF_Automation\\Res4',namePairs:[]}]};

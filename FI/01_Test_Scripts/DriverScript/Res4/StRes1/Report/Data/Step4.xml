@@ -1,0 +1,34 @@
+<?xml-stylesheet href="..//StServiceCallActivity.xsl" type="text/xsl"?><report><VTD_Type name="Type">HP.ST.Ext.WebServicesActivities.StServiceCallActivity</VTD_Type><VTD_Name name="Step ID">StServiceCallActivity9</VTD_Name><InputXml name="InputXml" xml="True" link="True" FileLocation="StServiceCallActivity9_InputXml_9989bb0a-2697-48c4-b8a6-91a905aa7fb2.xml">&lt;Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/" xmlns:p1="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;Body&gt;
+    &lt;CreateFlightOrder xmlns="HP.SOAQ.SampleApp"&gt;
+      &lt;FlightOrder&gt;
+        &lt;Class&gt;Economy&lt;/Class&gt;
+        &lt;CustomerName&gt;Christopher&lt;/CustomerName&gt;
+        &lt;DepartureDate&gt;2020-06-29T00:00:00&lt;/DepartureDate&gt;
+        &lt;FlightNumber&gt;1042&lt;/FlightNumber&gt;
+        &lt;NumberOfTickets&gt;2&lt;/NumberOfTickets&gt;
+      &lt;/FlightOrder&gt;
+    &lt;/CreateFlightOrder&gt;
+  &lt;/Body&gt;
+&lt;/Envelope&gt;</InputXml><Service name="Service">Flights_Service</Service><Port name="Port">FlightsServiceMethods</Port><Operation name="Operation">CreateFlightOrder</Operation><Address name="Address">http://localhost:8000/Flights_SOAP</Address><SOAPAction name="SOAPAction">HP.SOAQ.SampleApp/IFlightsSoapService/CreateFlightOrder</SOAPAction><ContentType name="ContentType">text/xml; charset=utf-8</ContentType><MessageExchangePattern name="MessageExchangePattern">Request Response</MessageExchangePattern><Full_request name="Full request" TooLong="True" link="True" FileLocation="StServiceCallActivity9_Full_request_9901678e-bbf7-4c7d-b175-861a769eb870.xml">&lt;Envelope xmlns="htt ... &lt;/Body&gt;
+&lt;/Envelope&gt;</Full_request><InputHeader name="InputHeader">SOAPAction:	HP.SOAQ.SampleApp/IFlightsSoapService/CreateFlightOrder
+Content-Type:	text/xml; charset=utf-8
+Host:	localhost:8000
+Content-Length:	498
+Expect:	100-continue
+Connection:	Close
+</InputHeader><OutputHeader name="OutputHeader">Connection:	close
+Content-Length:	343
+Content-Type:	text/xml; charset=utf-8
+Date:	Tue, 09 Jun 2020 09:09:12 GMT
+Server:	Microsoft-HTTPAPI/2.0
+</OutputHeader><OutputText name="OutputText">&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;&lt;s:Body&gt;&lt;CreateFlightOrderResponse xmlns="HP.SOAQ.SampleApp"&gt;&lt;CreateFlightOrderResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;&lt;OrderNumber&gt;171&lt;/OrderNumber&gt;&lt;TotalPrice&gt;748.800049&lt;/TotalPrice&gt;&lt;/CreateFlightOrderResult&gt;&lt;/CreateFlightOrderResponse&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;</OutputText><HttpStatusCode name="HttpStatusCode">200 : OK</HttpStatusCode><OutputXml name="OutputXml" xml="True" link="True" FileLocation="StServiceCallActivity9_OutputXml_e07faf95-fb56-4686-9991-9c48708e2f78.xml">&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;s:Body&gt;
+    &lt;CreateFlightOrderResponse xmlns="HP.SOAQ.SampleApp"&gt;
+      &lt;CreateFlightOrderResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance"&gt;
+        &lt;OrderNumber&gt;171&lt;/OrderNumber&gt;
+        &lt;TotalPrice&gt;748.800049&lt;/TotalPrice&gt;
+      &lt;/CreateFlightOrderResult&gt;
+    &lt;/CreateFlightOrderResponse&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;</OutputXml><VTD_Message name="Message">Web service call performed successfully</VTD_Message><Name name="Name">'CreateFlightOrder'</Name><Comment name="Comment">''</Comment><VTD_Status name="Status">Done</VTD_Status></report>

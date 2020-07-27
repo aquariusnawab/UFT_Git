@@ -1,0 +1,9 @@
+﻿<Properties>
+  <WatchEntry0 value="strResult" />
+  <WatchEntry1 value="strRequestId" />
+  <WatchEntry2 value="i" />
+  <WatchEntry3 value="noOfItems" />
+  <WatchEntry4 value="i" />
+  <WatchEntry5 value="collection.Count()" />
+  <WatchEntry6 value="FailTot" />
+</Properties>

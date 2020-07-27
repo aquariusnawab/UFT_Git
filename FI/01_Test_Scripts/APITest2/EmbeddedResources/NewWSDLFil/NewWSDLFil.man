@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ID>2d668fb1-5d6e-421a-b74f-b5af015e2e1d</ID>
+  <Name>NewWSDLFil</Name>
+  <Type>WSDL</Type>
+  <Version>1</Version>
+  <CreationDate>2020-04-30T11:45:10.2945558+05:30</CreationDate>
+  <UpdateDate>2020-04-30T11:45:10.2945558+05:30</UpdateDate>
+  <LoaderID>SignatureResourceHandler</LoaderID>
+  <MetaDataSignatureFile>a64cce3a-4f7c-4617-b52c-0a5a96656f8c.xml</MetaDataSignatureFile>
+  <TestResourceId>a64cce3a-4f7c-4617-b52c-0a5a96656f8c</TestResourceId>
+  <RepositoryType>TestRepository</RepositoryType>
+  <SignatureCodonId>HP.ST.WebServiceWsdl</SignatureCodonId>
+  <SignatureAddinVersion>14.3.3048.0</SignatureAddinVersion>
+  <Properties>
+    <Item>
+      <Key>
+        <string>RepositoryPath</string>
+      </Key>
+      <Value>
+        <string>C:\Users\nnaseeruddin\Documents\Nas_FI\FI\01_Test_Scripts\APITest2\EmbeddedResources</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>ResourceOrigin</string>
+      </Key>
+      <Value>
+        <string>C:\Users\nnaseeruddin\Documents\Nas_FI\FI\01_Test_Scripts\APITest2\EmbeddedResources\NewWSDLFil</string>
+      </Value>
+    </Item>
+    <Item>
+      <Key>
+        <string>PrototypeDbVersion</string>
+      </Key>
+      <Value>
+        <string>14.3.3048.0</string>
+      </Value>
+    </Item>
+  </Properties>
+</ResourceManifest>

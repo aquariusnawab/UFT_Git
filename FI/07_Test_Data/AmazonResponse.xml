@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09"><soapenv:Body><soapenv:Fault><faultcode>aws:Client.MissingParameter</faultcode><faultstring>The request must contain the parameter Signature.</faultstring><detail><aws:RequestId xmlns:aws="http://webservices.amazon.com/AWSFault/2005-15-09">fbd26ec2-fa0c-481a-a166-804f8bca643c</aws:RequestId></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>

@@ -1,0 +1,19 @@
+2020-07-09 13:44:37,123 [22] ERROR - Failed to log checkpoint status:
+2020-07-09 13:44:37,124 [22] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)
+2020-07-09 13:44:37,212 [22] ERROR - The server has returned a soap fault :    at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.FailOnResponseErrors(Context context)
+   at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.HandleOutputEnvelope(String receivedMessage)
+   at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.SendRequestAndHandleResponse(ChannelBase channel, Message request, Context context)
+   at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.SendRequestAndHandleResponse(String envelope, Context context, ChannelPipeline pipeline)
+   at HP.ST.Ext.WebServicesActivities.StServiceCallActivity.ExecuteStep()
+2020-07-09 13:44:37,223 [22] ERROR - StServiceCallActivity10, GetDataFromInDirections() failed : Couldn't Get Property: OutputEnvelope, with XPath: /*[local-name(.)='Envelope'][1]/*[local-name(.)='Body'][1]/*[local-name(.)='CreateFlightOrderResponse'][1]/*[local-name(.)='CreateFlightOrderResult'][1]/*[local-name(.)='OrderNumber'][1]
+2020-07-09 13:44:37,236 [22] ERROR - StServiceCallActivity8, GetDataFromInDirections() failed : Couldn't Get Property: OutputEnvelope, with XPath: /*[local-name(.)='Envelope'][1]/*[local-name(.)='Body'][1]/*[local-name(.)='CreateFlightOrderResponse'][1]/*[local-name(.)='CreateFlightOrderResult'][1]/*[local-name(.)='OrderNumber'][1]
+2020-07-09 13:44:37,238 [22] ERROR - StServiceCallActivity8, GetDataFromInDirections() failed : Couldn't Get Property: OutputEnvelope, with XPath: /*[local-name(.)='Envelope'][1]/*[local-name(.)='Body'][1]/*[local-name(.)='CreateFlightOrderResponse'][1]/*[local-name(.)='CreateFlightOrderResult'][1]/*[local-name(.)='OrderNumber'][1]
+2020-07-09 13:44:37,249 [22] ERROR - StServiceCallActivity11, GetDataFromInDirections() failed : Couldn't Get Property: OutputEnvelope, with XPath: /*[local-name(.)='Envelope'][1]/*[local-name(.)='Body'][1]/*[local-name(.)='CreateFlightOrderResponse'][1]/*[local-name(.)='CreateFlightOrderResult'][1]/*[local-name(.)='OrderNumber'][1]
+2020-07-09 13:44:38,820 [22] ERROR - Failed to log checkpoint status:
+2020-07-09 13:44:38,821 [22] ERROR - System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.WriteCPToLog(Dictionary`2 reportData, ILog log)
+   at HP.ST.Fwk.RunTimeFWK.CheckpointFWK.ReportImpl.ReportToInternalLog(ISTRunTimeContext context, Dictionary`2 reportData)

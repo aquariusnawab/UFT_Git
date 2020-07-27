@@ -1,0 +1,9 @@
+<?xml-stylesheet href="..//StServiceCallActivity.xsl" type="text/xsl"?><report><VTD_Type name="Type">HP.ST.Ext.WebServicesActivities.StServiceCallActivity</VTD_Type><VTD_Name name="Step ID">StServiceCallActivity7</VTD_Name><InputXml name="InputXml" xml="True" link="True" FileLocation="StServiceCallActivity7_InputXml_74f53a26-3ba4-4da3-b225-83dee956f87c.xml">&lt;Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;Body&gt;
+    &lt;GetFlights xmlns="HP.SOAQ.SampleApp" /&gt;
+  &lt;/Body&gt;
+&lt;/Envelope&gt;</InputXml><Service name="Service">Flights_Service</Service><Port name="Port">FlightsServiceMethods</Port><Operation name="Operation">GetFlights</Operation><Address name="Address">http://localhost:8000/Flights_SOAP</Address><SOAPAction name="SOAPAction">HP.SOAQ.SampleApp/IFlightsSoapService/GetFlights</SOAPAction><ContentType name="ContentType">text/xml; charset=utf-8</ContentType><MessageExchangePattern name="MessageExchangePattern">Request Response</MessageExchangePattern><Full_request name="Full request" TooLong="True" link="True" FileLocation="StServiceCallActivity7_Full_request_5b9fe0f4-e9ab-414b-bf59-dc3403600bbf.xml">&lt;Envelope xmlns="htt ... &lt;/Body&gt;
+&lt;/Envelope&gt;</Full_request><InputHeader name="InputHeader">SOAPAction:	HP.SOAQ.SampleApp/IFlightsSoapService/GetFlights
+Content-Type:	text/xml; charset=utf-8
+Host:	localhost:8000
+</InputHeader><VTD_Message name="Message">Unable to connect to the remote server</VTD_Message><Name name="Name">'GetFlights'</Name><Comment name="Comment">''</Comment><VTD_Status name="Status">Failure</VTD_Status><VTD_Details name="Details">GetFlights ended unsuccessfully</VTD_Details></report>

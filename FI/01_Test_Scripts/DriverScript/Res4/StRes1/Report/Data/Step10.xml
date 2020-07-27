@@ -1,0 +1,25 @@
+<?xml-stylesheet href="..//StServiceCallActivity.xsl" type="text/xsl"?><report><VTD_Type name="Type">HP.ST.Ext.WebServicesActivities.StServiceCallActivity</VTD_Type><VTD_Name name="Step ID">StServiceCallActivity11</VTD_Name><InputXml name="InputXml" xml="True" link="True" FileLocation="StServiceCallActivity11_InputXml_8300576d-d926-44f1-a70d-ae259cd33c1f.xml">&lt;Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;Body&gt;
+    &lt;DeleteFlightOrder xmlns="HP.SOAQ.SampleApp"&gt;
+      &lt;OrderNumber&gt;171&lt;/OrderNumber&gt;
+    &lt;/DeleteFlightOrder&gt;
+  &lt;/Body&gt;
+&lt;/Envelope&gt;</InputXml><Service name="Service">Flights_Service</Service><Port name="Port">FlightsServiceMethods</Port><Operation name="Operation">DeleteFlightOrder</Operation><Address name="Address">http://localhost:8000/Flights_SOAP</Address><SOAPAction name="SOAPAction">HP.SOAQ.SampleApp/IFlightsSoapService/DeleteFlightOrder</SOAPAction><ContentType name="ContentType">text/xml; charset=utf-8</ContentType><MessageExchangePattern name="MessageExchangePattern">Request Response</MessageExchangePattern><Full_request name="Full request" TooLong="True" link="True" FileLocation="StServiceCallActivity11_Full_request_a3c0cef4-16ed-4428-8934-0373723deb9a.xml">&lt;Envelope xmlns="htt ... &lt;/Body&gt;
+&lt;/Envelope&gt;</Full_request><InputHeader name="InputHeader">SOAPAction:	HP.SOAQ.SampleApp/IFlightsSoapService/DeleteFlightOrder
+Content-Type:	text/xml; charset=utf-8
+Host:	localhost:8000
+Content-Length:	179
+Expect:	100-continue
+Connection:	Close
+</InputHeader><OutputHeader name="OutputHeader">Connection:	close
+Content-Length:	230
+Content-Type:	text/xml; charset=utf-8
+Date:	Tue, 09 Jun 2020 09:09:12 GMT
+Server:	Microsoft-HTTPAPI/2.0
+</OutputHeader><OutputText name="OutputText">&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;&lt;s:Body&gt;&lt;DeleteFlightOrderResponse xmlns="HP.SOAQ.SampleApp"&gt;&lt;DeleteFlightOrderResult&gt;true&lt;/DeleteFlightOrderResult&gt;&lt;/DeleteFlightOrderResponse&gt;&lt;/s:Body&gt;&lt;/s:Envelope&gt;</OutputText><HttpStatusCode name="HttpStatusCode">200 : OK</HttpStatusCode><OutputXml name="OutputXml" xml="True" link="True" FileLocation="StServiceCallActivity11_OutputXml_4bb8dc08-454a-4ade-819c-843a70630192.xml">&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+  &lt;s:Body&gt;
+    &lt;DeleteFlightOrderResponse xmlns="HP.SOAQ.SampleApp"&gt;
+      &lt;DeleteFlightOrderResult&gt;true&lt;/DeleteFlightOrderResult&gt;
+    &lt;/DeleteFlightOrderResponse&gt;
+  &lt;/s:Body&gt;
+&lt;/s:Envelope&gt;</OutputXml><VTD_Message name="Message">Web service call performed successfully</VTD_Message><Name name="Name">'DeleteFlightOrder'</Name><Comment name="Comment">''</Comment><VTD_Status name="Status">Done</VTD_Status></report>

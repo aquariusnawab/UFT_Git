@@ -1,0 +1,30 @@
+<Environment>
+	<Variable>
+		<Name>REPORT_HEADER</Name>
+		<Value></Value>
+	</Variable>
+	<Variable>
+		<Name>REPORT_LOGO</Name>
+		<Value></Value>
+	</Variable>
+	<Variable>
+		<Name>REPORT_TYPE</Name>
+		<Value></Value>
+	</Variable>
+	<Variable>
+		<Name>TEST_AUTOMATION_HOME_FOLDER</Name>
+		<Value></Value>
+	</Variable>
+	<Variable>
+		<Name>TEST_RESULTS_PATH</Name>
+		<Value>C:\Users\shiarora\Desktop\Shinu\ITS\FunctionLibraries\Results</Value>
+	</Variable>
+	<Variable>
+		<Name>HTML_REPORT_TITLE</Name>
+		<Value>Independent Testing Services</Value>
+	</Variable>
+	<Variable>
+		<Name>HTML_SCREENSHOT_PATH</Name>
+		<Value>C:\Users\shiarora\Desktop\Shinu\ITS\FunctionLibraries\Results\ScreenShots</Value>
+	</Variable>
+</Environment>

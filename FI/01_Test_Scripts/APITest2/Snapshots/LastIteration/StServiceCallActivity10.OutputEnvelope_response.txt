@@ -1,0 +1,1 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><UpdateFlightOrderResponse xmlns="HP.SOAQ.SampleApp"><UpdateFlightOrderResult>true</UpdateFlightOrderResult></UpdateFlightOrderResponse></s:Body></s:Envelope>

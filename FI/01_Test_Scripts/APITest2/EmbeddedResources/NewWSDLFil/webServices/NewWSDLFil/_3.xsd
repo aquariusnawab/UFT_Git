@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:tns="http://www.example.org/NewWSDLFile/" targetNamespace="http://www.example.org/NewWSDLFile/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="HelloWorld_1.xsd" namespace="http://www.example.org/HelloWorldRequest" />
+  <xs:import schemaLocation="HelloWorld_2.xsd" namespace="http://www.example.org/HelloWorldResponse" />
+</xs:schema>
